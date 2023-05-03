@@ -3,6 +3,7 @@
 import HeaderComp from './components/HeaderComp.vue'
 import MainComp from './components/MainComp.vue'
 import FastLinksComp from './components/FastLinksComp.vue'
+import FooterComp from './components/FooterComp.vue'
 
 
 export default{
@@ -11,6 +12,7 @@ export default{
       HeaderComp,
       MainComp,
       FastLinksComp,
+      FooterComp,
     }
   }
 
@@ -22,6 +24,7 @@ export default{
   <HeaderComp/>
   <MainComp/>
   <FastLinksComp/>
+  <FooterComp/>
 </template>
 
 

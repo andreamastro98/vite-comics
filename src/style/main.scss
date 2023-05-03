@@ -27,3 +27,24 @@ ul{
 main{
     background-color: #1C1C1C;
 }
+
+.fastlinks{
+    background-color: #0282F9;
+    div{
+        div{
+            display: flex;
+            align-items: center;
+            img{
+                display: inline-block;
+                text-align: center;
+                height: 50px;
+                aspect-ratio: 1;
+                margin-right: 1rem;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }        
+    }
+}
