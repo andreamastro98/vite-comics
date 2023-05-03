@@ -2,13 +2,15 @@
 
 import HeaderComp from './components/HeaderComp.vue'
 import MainComp from './components/MainComp.vue'
-import MainComp from './components/MainComp.vue'
+import FastLinksComp from './components/FastLinksComp.vue'
+
 
 export default{
     name: "App",
     components: {
       HeaderComp,
-      MainComp
+      MainComp,
+      FastLinksComp,
     }
   }
 
@@ -19,6 +21,7 @@ export default{
 <template>
   <HeaderComp/>
   <MainComp/>
+  <FastLinksComp/>
 </template>
 
 
