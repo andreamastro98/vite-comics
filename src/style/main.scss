@@ -1,0 +1,29 @@
+@import './partials/_variables.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul{
+    li{
+        display: inline-flex;
+        height: 100%;
+        &:hover{
+                border-bottom: 1px solid blue;
+            }
+        a{
+            text-decoration: none;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            color: black;
+            line-height: 6rem;                        
+        }
+    }
+}
+
+main{
+    background-color: #1C1C1C;
+}
