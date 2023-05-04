@@ -8,18 +8,27 @@
 
 
 ul{
+    margin-bottom: 0;
     li{
         display: inline-flex;
         height: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
         &:hover{
-                border-bottom: 1px solid blue;
+                border-bottom: 2px solid blue;
             }
+        &:hover a{
+            color: blue;
+        }
+
         a{
             text-decoration: none;
-            margin-left: 1rem;
-            margin-right: 1rem;
             color: black;
-            line-height: 6rem;                        
+            line-height: 6rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 0.8rem;                        
         }
     }
 }
@@ -44,7 +53,38 @@ main{
             a{
                 text-decoration: none;
                 color: white;
+                text-transform: uppercase;
             }
         }        
+    }
+}
+
+.footer{
+    background-image: url(../../public/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h2{
+        color: white;
+    }    
+    a{
+        display: block;
+        text-decoration: none;
+        color: #959595;
+    }
+    .container{
+        background-image: url(../../public/img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: center right;
+    }
+}
+
+.footerLinks{
+    background-color: #303030;
+    .btn-outline-primary,.btn{
+        border-radius: 0;
+        border: 2px solid #0d6efd;
+        color: white;
     }
 }

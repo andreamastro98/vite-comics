@@ -2,6 +2,62 @@
 
 export default{
   name: "HeaderComp",
+  data(){
+    return{
+      menuLinks:[
+        {
+          name:'Characters',
+          link:'',
+          currennt:'',
+        },
+        {
+          name:'Comics',
+          link:'',
+          currennt:'',
+        },
+        {
+          name:'Movies',
+          link:'',
+          currennt:'',
+        },
+        {
+          name:'Tv',
+          link:'',
+          currennt:'',
+        },
+        {
+          name:'Games',
+          link:'',
+          currennt:'',
+        },
+        {
+          name:'Collectibles',
+          link:'',
+          currennt:'',
+        },
+        {
+          name:'Videos',
+          link:'',
+          currennt:'',
+        },
+        {
+          name:'Fans',
+          link:'',
+          currennt:'',
+        },
+        {
+          name:'News',
+          link:'',
+          currennt:'',
+        },
+        {
+          name:'Shop',
+          link:'',
+          currennt:'',
+        },
+      ]
+    }
+  }
 }
 
 </script>
@@ -11,14 +67,14 @@ export default{
 <template>
   <div>
     <header class="container">
-      <nav class="d-flex justify-content-between py-4 align-items-center">
+      <nav class="d-flex justify-content-between align-items-center">
         <div>
-          <img src="../../public/img/dc-logo.png" alt="">
+          <img src="../../public/img/dc-logo.png" alt="" style="width: 70%;">
         </div>
         <div>
           <ul>
             <li>
-              <a href="#">CHARACTERS</a>
+              <a href="#">Characters</a>
             </li>
             <li>
               <a href="#">COMICS</a>
