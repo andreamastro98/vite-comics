@@ -73,36 +73,9 @@ export default{
         </div>
         <div>
           <ul>
-            <li>
-              <a href="#">Characters</a>
-            </li>
-            <li>
-              <a href="#">COMICS</a>
-            </li>
-            <li>
-              <a href="#">MOVIES</a>
-            </li>
-            <li>
-              <a href="#">TV</a>
-            </li>
-            <li>
-              <a href="#">GAMES</a>
-            </li>
-            <li>
-              <a href="#">COLLECTIBLES</a>
-            </li>
-            <li>
-              <a href="#">VIDEOS</a>
-            </li>
-            <li>
-              <a href="#">FANS</a>
-            </li>
-            <li>
-              <a href="#">NEWS</a>
-            </li>
-            <li>
-              <a href="#">SHOP</a>
-            </li>
+            <li v-for="(elem, index) in menuLinks" :key="index">
+              <a href="#">{{ elem.name }}</a>
+            </li>            
           </ul>
         </div>
       </nav>      

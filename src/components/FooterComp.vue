@@ -54,14 +54,52 @@ export default{
             <div>
                 <button type="button" class="btn btn-outline-primary">SIGN-UP NOW!</button>
             </div>
-            <div>
+            <div class="d-flex align-items-center">
                 <h4>FOLLOW US</h4>
+                <span>
+                    <a href="#">
+                        <img src="../../public/img/footer-facebook.png" alt="">
+                    </a>                    
+                </span>
 
+                <span>
+                    <a href="#">
+                        <img src="../../public/img/footer-twitter.png" alt="">
+                    </a>                    
+                </span>
+
+                <span>
+                    <a href="#">
+                        <img src="../../public/img/footer-youtube.png" alt="">
+                    </a>                    
+                </span>
+
+                <span>
+                    <a href="#">
+                        <img src="../../public/img/footer-pinterest.png" alt="">
+                    </a>                    
+                </span>
+
+                <span>
+                    <a href="#">
+                        <img src="../../public/img/footer-periscope.png" alt="">
+                    </a>                    
+                </span>
             </div>
         </div>
     </section>
 </template>
 
 <style lang="scss" scoped>
+
+h4{
+    margin-bottom: 0;
+    color: #0d6efd;
+    margin-right: 1rem;
+}
+
+span{
+    margin: 0 0.5rem 0 0.5rem;
+}
 
 </style>
