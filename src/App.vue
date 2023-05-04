@@ -4,6 +4,7 @@ import HeaderComp from './components/HeaderComp.vue'
 import MainComp from './components/MainComp.vue'
 import FastLinksComp from './components/FastLinksComp.vue'
 import FooterComp from './components/FooterComp.vue'
+import SingleCardComp from './components/SingleCardComp.vue'
 
 
 export default{
@@ -13,6 +14,7 @@ export default{
       MainComp,
       FastLinksComp,
       FooterComp,
+      SingleCardComp,
     }
   }
 
